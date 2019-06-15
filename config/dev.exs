@@ -52,7 +52,8 @@ config :fire, FireWeb.Endpoint,
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
       ~r"lib/fire_web/{live,views}/.*(ex)$",
-      ~r"lib/fire_web/templates/.*(eex)$"
+      ~r"lib/fire_web/templates/.*(eex)$",
+      ~r{lib/my_app_web/live/.*(ex)$}
     ]
   ]
 
